@@ -7,5 +7,11 @@ public class Main {
 
         V1.mostrarFicha();
         V1.calcularPrecioFinal();
+
+        Vehiculo V2=new Motocicleta();
+        V2.mostrarFicha();
+
+        Vehiculo V3=new CamionCarga();
+        V3.mostrarFicha();
     }
 }
